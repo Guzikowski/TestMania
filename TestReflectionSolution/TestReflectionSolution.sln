@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project", "Project\Project.csproj", "{BB12B20A-ED94-409D-A365-203B4EE1910D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{056A4A8A-C1C6-43A0-A259-F9EEF2D8C742}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://wlgtfs1v:8080/tfs/new_tfs1
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Project\\Project.csproj
+		SccProjectName1 = Project
+		SccLocalPath1 = Project
+		SccProjectUniqueName2 = TestProject\\TestProject.csproj
+		SccProjectName2 = TestProject
+		SccLocalPath2 = TestProject
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB12B20A-ED94-409D-A365-203B4EE1910D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB12B20A-ED94-409D-A365-203B4EE1910D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB12B20A-ED94-409D-A365-203B4EE1910D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB12B20A-ED94-409D-A365-203B4EE1910D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056A4A8A-C1C6-43A0-A259-F9EEF2D8C742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056A4A8A-C1C6-43A0-A259-F9EEF2D8C742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056A4A8A-C1C6-43A0-A259-F9EEF2D8C742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056A4A8A-C1C6-43A0-A259-F9EEF2D8C742}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

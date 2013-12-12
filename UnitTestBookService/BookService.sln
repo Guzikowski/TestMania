@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Book Catalog Service", "Book Catalog Service", "{187A6EDF-1247-40E9-AEAD-FB39B914A0C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{D93B24D8-311A-4B65-95B9-3E2EC715AF2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{8D1E2893-2F87-484F-8EA2-AF74AE7B91CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookCatalog", "BookCatalog\BookCatalog.csproj", "{F2E7F9A8-2822-440F-B064-69A8963B8410}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookCatalogService", "BookCatalogService\BookCatalogService.csproj", "{BE5A418B-BF0A-449C-A998-53271D6B4CF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBookCatalogService", "IBookCatalogService\IBookCatalogService.csproj", "{CFEFD248-2BFA-4BF4-A636-3CD4FCF20217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBookCatalogService", "TestBookCatalogService\TestBookCatalogService.csproj", "{024163E9-0926-41BB-ACCD-3F4243FA5DA8}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://wlgtfs1v:8080/tfs/new_tfs1
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BookCatalog\\BookCatalog.csproj
+		SccProjectTopLevelParentUniqueName1 = BookService.sln
+		SccProjectName1 = BookCatalog
+		SccLocalPath1 = BookCatalog
+		SccProjectUniqueName2 = BookCatalogService\\BookCatalogService.csproj
+		SccProjectTopLevelParentUniqueName2 = BookService.sln
+		SccProjectName2 = BookCatalogService
+		SccLocalPath2 = BookCatalogService
+		SccProjectUniqueName3 = IBookCatalogService\\IBookCatalogService.csproj
+		SccProjectTopLevelParentUniqueName3 = BookService.sln
+		SccProjectName3 = IBookCatalogService
+		SccLocalPath3 = IBookCatalogService
+		SccProjectUniqueName4 = TestBookCatalogService\\TestBookCatalogService.csproj
+		SccProjectTopLevelParentUniqueName4 = BookService.sln
+		SccProjectName4 = TestBookCatalogService
+		SccLocalPath4 = TestBookCatalogService
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2E7F9A8-2822-440F-B064-69A8963B8410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E7F9A8-2822-440F-B064-69A8963B8410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E7F9A8-2822-440F-B064-69A8963B8410}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F2E7F9A8-2822-440F-B064-69A8963B8410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E7F9A8-2822-440F-B064-69A8963B8410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E7F9A8-2822-440F-B064-69A8963B8410}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BE5A418B-BF0A-449C-A998-53271D6B4CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5A418B-BF0A-449C-A998-53271D6B4CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5A418B-BF0A-449C-A998-53271D6B4CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5A418B-BF0A-449C-A998-53271D6B4CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFEFD248-2BFA-4BF4-A636-3CD4FCF20217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFEFD248-2BFA-4BF4-A636-3CD4FCF20217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFEFD248-2BFA-4BF4-A636-3CD4FCF20217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFEFD248-2BFA-4BF4-A636-3CD4FCF20217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{024163E9-0926-41BB-ACCD-3F4243FA5DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024163E9-0926-41BB-ACCD-3F4243FA5DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024163E9-0926-41BB-ACCD-3F4243FA5DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024163E9-0926-41BB-ACCD-3F4243FA5DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE5A418B-BF0A-449C-A998-53271D6B4CF4} = {187A6EDF-1247-40E9-AEAD-FB39B914A0C1}
+		{CFEFD248-2BFA-4BF4-A636-3CD4FCF20217} = {187A6EDF-1247-40E9-AEAD-FB39B914A0C1}
+		{F2E7F9A8-2822-440F-B064-69A8963B8410} = {D93B24D8-311A-4B65-95B9-3E2EC715AF2E}
+		{024163E9-0926-41BB-ACCD-3F4243FA5DA8} = {8D1E2893-2F87-484F-8EA2-AF74AE7B91CA}
+	EndGlobalSection
+EndGlobal
